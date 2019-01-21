@@ -1,13 +1,13 @@
 # Vega-Lite
 ##### The touching the iceberg of Vega-Lite
 
-** Just for fun learning how it works. The plot outcomes are a disaster w.r.t. overall color choices. 
+** Just for fun learning how it works. The plot outcomes are a disaster w.r.t. overall color choices. <br />
 ** (But visually reconiziable to see how each property works and 
      to know where to add them in the json structure)
 
 * Simple Bar Chart
-![circile plot](img/1.png) 
 Reference from hre.(https://vega.github.io/vega-lite/examples/bar.html)
+![circile plot](img/1.png) 
 * Circle Natural Disasters
 Reference from here. (https://vega.github.io/editor/#/examples/vega-lite/circle_natural_disasters)
 ![circile plot](img/2.png) 
