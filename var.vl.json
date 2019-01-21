@@ -1,0 +1,58 @@
+{
+  "title": {
+    "text": "A Simple Bar Chart", 
+    "color": "purple"},
+  "data": {
+    "values": [
+      {"a": "A", "b": 28},
+      {"a": "B", "b": 55},
+      {"a": "C", "b": 43},
+      {"a": "D", "b": 91},
+      {"a": "E", "b": 81},
+      {"a": "F", "b": 53},
+      {"a": "G", "b": 19},
+      {"a": "H", "b": 87},
+      {"a": "I", "b": 52}
+    ]
+  },
+  "width": 400,
+  "height": 300,
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "a", 
+      "type": "ordinal",
+      "axis":{"labelAngle":"20"}
+      },
+    "y": {
+      "field": "b",
+      "type": "quantitative",
+      "axis": { 
+        "labelColor":"green", 
+        "tickColor":"red",
+        "titleColor":"blue",
+        "gridOpacity":".5"
+      }
+    },
+    "size": {"value": 15},
+    "_comment": "{'value':'blue'} also ok for single color: 'type'can be 'nominal' as well",
+    "color": {
+      "field": "a", 
+      "type": "ordinal",
+      "_comment":"'scale': {'range': ['#e6959c', '#911a24']}",
+      "legend": {
+        "title": "City ID", 
+        "titleColor":"green",
+        "color": "red",
+        "type":"symbol",
+        "fillColor":"gainsboro",
+        "cornerRadius":"5",
+        "strokeColor":"black",
+        "labelColor":"white",
+        "symbolStrokeColor":"yellow",
+        "symbolStrokeWidth":".5"
+        }
+      },
+    "opacity":{"value" : ".5"}
+  }
+}
